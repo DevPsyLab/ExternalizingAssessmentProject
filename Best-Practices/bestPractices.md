@@ -72,7 +72,7 @@ Adapted from
     parse).
 
     -   This formatting is incompatible with a double space after
-        period. Do a find and replace for `".  "` –\> `". "` Be careful
+        period. Do a find and replace for `".  "` → `". "` Be careful
         not to blanket remove all double spaces because tabbed bullets
         have 3 spaces.
 

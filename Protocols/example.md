@@ -22,8 +22,10 @@ Isaac Petersen
 -   <a href="#8-math-formulas" id="toc-8-math-formulas">8 Math Formulas</a>
 -   <a href="#9-links" id="toc-9-links">9 Links</a>
 -   <a href="#10-footnotes" id="toc-10-footnotes">10 Footnotes</a>
--   <a href="#11-best-practices" id="toc-11-best-practices">11 Best
-    Practices</a>
+-   <a href="#11-symbols" id="toc-11-symbols">11 Symbols</a>
+    -   <a href="#111-arrows" id="toc-111-arrows">11.1 Arrows</a>
+    -   <a href="#112-dashes-and-hyphens" id="toc-112-dashes-and-hyphens">11.2
+        Dashes and Hyphens</a>
 -   <a href="#12-session-info" id="toc-12-session-info">12 Session Info</a>
     -   <a href="#121-rstudio-version" id="toc-121-rstudio-version">12.1 Rstudio
         Version</a>
@@ -137,10 +139,9 @@ This text is **bolded text**. This text is *italicized text*. This text
 is ***bolded and italicized text***. This text is <mark>highlighted
 text</mark>. This text is
 <mark style="background-color: lightblue">highlighted text in a
-different color</mark>. This text is ==highlighted text== to see which
-one works in GitHub/GitLab. This text is `unicode text`. This text is
-<code><i>code in italics;</i> <b>this text is bold</b></code>. This text
-is ~~strikethrough text~~.
+different color</mark>. This text is `unicode text`. This text is
+<code><i>code in italics;</i> this text is <b>code is bold</b></code>.
+This text is ~~strikethrough text~~.
 
 # 7 Code/Syntax Highlighting
 
@@ -196,32 +197,20 @@ A footnote can also have multiple lines[^2].
 
 You can also use words, to fit your writing style more closely[^3].
 
-# 11 Best Practices
+# 11 Symbols
 
-Adapted from
-[here](https://github.com/lowepowerlab/protocols/blob/main/markdown_best_practices.md):
+## 11.1 Arrows
 
--   **Use a new line for every sentence.** This helps with version
-    control – individually changed sentences will be highlighted upon
-    commits (easy to parse) rather than whole paragraphs (nightmare to
-    parse).
+-   left arrow: ← ←
+-   upward arrow: ↑ ↑
+-   right arrow: → →
+-   downward arrow: ↓ ↓
 
-    -   This formatting is incompatible with a double space after
-        period. Do a find and replace for `".  "` –\> `". "` Be careful
-        not to blanket remove all double spaces because tabbed bullets
-        have 3 spaces.
+## 11.2 Dashes and Hyphens
 
--   Add protocol entries as links to the `README.md`
-
--   Add linked content (e.g. images, excel workbooks, etc) to
-    sub-directories
-
--   When making numbered lists, just use `1.` for all numbers. Markdown
-    will make them sequential automatically. This is helpful if you go
-    back & add additional entries later.
-
--   Use `"XXX"` to indicate an area that needs editing. This will allow
-    the lab to `CTRL+F` for `"XXX"` and find areas that need editing.
+-   hyphen: -
+-   en dash: –
+-   em dash: —
 
 # 12 Session Info
 
