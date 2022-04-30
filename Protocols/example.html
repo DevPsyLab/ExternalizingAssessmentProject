@@ -2995,27 +2995,43 @@ castle.</p>
 <p>Continued…</p>
 </blockquote>
 </div>
-<div id="emphasis" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Emphasis</h1>
+<div id="comments" class="section level1" number="6">
+<h1><span class="header-section-number">6</span> Comments</h1>
+<pre><code>Here&#39;s a paragraph that will be visible.
+
+[This is a comment that will be hidden.]: # </code></pre>
+</div>
+<div id="emphasis" class="section level1" number="7">
+<h1><span class="header-section-number">7</span> Emphasis</h1>
 <p>This text is <strong>bolded text</strong>. This text is
 <em>italicized text</em>. This text is <strong><em>bolded and italicized
 text</em></strong>. This text is <mark>highlighted text</mark>. This
 text is <mark style="background-color: lightblue">highlighted text in a
 different color</mark>. This text is <code>unicode text</code>. This
 text is <code><i>code in italics;</i> this text is <b>code is
-bold</b></code>. This text is <del>strikethrough text</del>.</p>
+bold</b></code>. This text is <del>strikethrough text</del>. This text
+<ins>will be underlined</ins>. <font color="red">This text is
+red!</font></p>
 </div>
-<div id="codesyntax-highlighting" class="section level1" number="7">
-<h1><span class="header-section-number">7</span> Code/Syntax
+<div id="formatting" class="section level1" number="8">
+<h1><span class="header-section-number">8</span> Formatting</h1>
+<center>
+This text is centered.
+</center>
+</div>
+<div id="codesyntax-highlighting" class="section level1" number="9">
+<h1><span class="header-section-number">9</span> Code/Syntax
 Highlighting</h1>
 <p>To use syntax highlighting to display code without running the
 code:</p>
 <pre class="r"><code>summary(cars)</code></pre>
 <p>or</p>
 <pre class="r"><code>summary(cars)</code></pre>
+<p>or</p>
+<pre><code>summary(cars)</code></pre>
 </div>
-<div id="math-formulas" class="section level1" number="8">
-<h1><span class="header-section-number">8</span> Math Formulas</h1>
+<div id="math-formulas" class="section level1" number="10">
+<h1><span class="header-section-number">10</span> Math Formulas</h1>
 <p>Inline:</p>
 <p>This is the formula: <span class="math inline">\(x = y + 5\)</span>.
 Solve for <span class="math inline">\(x\)</span>.</p>
@@ -3024,8 +3040,8 @@ Solve for <span class="math inline">\(x\)</span>.</p>
 y = \frac{x}{7} \cdot 4 + 3 \times 2 - 1_{a1}/2^{1c/2} \dots
 \]</span></p>
 </div>
-<div id="links" class="section level1" number="9">
-<h1><span class="header-section-number">9</span> Links</h1>
+<div id="links" class="section level1" number="11">
+<h1><span class="header-section-number">11</span> Links</h1>
 <p><a href="https://www.google.com">I’m an inline-style link</a></p>
 <p><a href="https://www.google.com" title="Google&#39;s Homepage">I’m an
 inline-style link with title</a></p>
@@ -3038,16 +3054,16 @@ link definitions</a></p>
 links. <a href="http://www.example.com" class="uri">http://www.example.com</a> or <a href="http://www.example.com" class="uri">http://www.example.com</a></p>
 <p>Some text to show that the reference links can follow later.</p>
 </div>
-<div id="footnotes" class="section level1" number="10">
-<h1><span class="header-section-number">10</span> Footnotes</h1>
+<div id="footnotes" class="section level1" number="12">
+<h1><span class="header-section-number">12</span> Footnotes</h1>
 <p>Here is a simple footnote<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
 <p>A footnote can also have multiple lines<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
 <p>You can also use words, to fit your writing style more closely<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
 </div>
-<div id="symbols" class="section level1" number="11">
-<h1><span class="header-section-number">11</span> Symbols</h1>
-<div id="arrows" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> Arrows</h2>
+<div id="symbols" class="section level1" number="13">
+<h1><span class="header-section-number">13</span> Symbols</h1>
+<div id="arrows" class="section level2" number="13.1">
+<h2><span class="header-section-number">13.1</span> Arrows</h2>
 <ul>
 <li>left arrow: ← ←</li>
 <li>upward arrow: ↑ ↑</li>
@@ -3055,8 +3071,8 @@ links. <a href="http://www.example.com" class="uri">http://www.example.com</a> o
 <li>downward arrow: ↓ ↓</li>
 </ul>
 </div>
-<div id="dashes-and-hyphens" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Dashes and
+<div id="dashes-and-hyphens" class="section level2" number="13.2">
+<h2><span class="header-section-number">13.2</span> Dashes and
 Hyphens</h2>
 <ul>
 <li>hyphen: -</li>
@@ -3064,9 +3080,34 @@ Hyphens</h2>
 <li>em dash: —</li>
 </ul>
 </div>
+<div id="subscriptsuperscript" class="section level2" number="13.3">
+<h2><span class="header-section-number">13.3</span>
+Subscript/Superscript</h2>
+<p>H<sub>2</sub>O X<sup>2</sup></p>
 </div>
-<div id="session-info" class="section level1" number="12">
-<h1><span class="header-section-number">12</span> Session Info</h1>
+<div id="definition-list" class="section level2" number="13.4">
+<h2><span class="header-section-number">13.4</span> Definition List</h2>
+<dl>
+<dt>term</dt>
+<dd>
+definition
+</dd>
+</dl>
+</div>
+<div id="task-list" class="section level2" number="13.5">
+<h2><span class="header-section-number">13.5</span> Task list</h2>
+<ul class="task-list">
+<li><input type="checkbox" disabled checked></input>
+Write the press release</li>
+<li><input type="checkbox" disabled></input>
+Update the website</li>
+<li><input type="checkbox" disabled></input>
+Contact the media</li>
+</ul>
+</div>
+</div>
+<div id="session-info" class="section level1" number="14">
+<h1><span class="header-section-number">14</span> Session Info</h1>
 <pre class="r"><code>sessionInfo()</code></pre>
 <pre><code>## R version 4.2.0 (2022-04-22)
 ## Platform: x86_64-pc-linux-gnu (64-bit)
@@ -3092,8 +3133,8 @@ Hyphens</h2>
 ## [13] rmarkdown_2.14  tools_4.2.0     stringr_1.4.0   xfun_0.30      
 ## [17] yaml_2.3.5      fastmap_1.1.0   compiler_4.2.0  htmltools_0.5.2
 ## [21] knitr_1.39      sass_0.4.1</code></pre>
-<div id="rstudio-version" class="section level2" number="12.1">
-<h2><span class="header-section-number">12.1</span> Rstudio Version</h2>
+<div id="rstudio-version" class="section level2" number="14.1">
+<h2><span class="header-section-number">14.1</span> Rstudio Version</h2>
 <pre class="r"><code>rstudioapi::versionInfo()</code></pre>
 <pre><code>## Error: RStudio not running</code></pre>
 </div>
