@@ -34,8 +34,9 @@ Isaac Petersen
     -   <a href="#134-definition-list" id="toc-134-definition-list">13.4
         Definition List</a>
     -   <a href="#135-task-list" id="toc-135-task-list">13.5 Task list</a>
--   <a href="#14-session-info" id="toc-14-session-info">14 Session Info</a>
-    -   <a href="#141-rstudio-version" id="toc-141-rstudio-version">14.1 Rstudio
+-   <a href="#14-table" id="toc-14-table">14 Table</a>
+-   <a href="#15-session-info" id="toc-15-session-info">15 Session Info</a>
+    -   <a href="#151-rstudio-version" id="toc-151-rstudio-version">15.1 Rstudio
         Version</a>
 
 The `.md` and `.html` files are generated from the `.Rmd` file. Make
@@ -226,6 +227,8 @@ You can also use words, to fit your writing style more closely[^3].
 
 # 13 Symbols
 
+-   degree: (°) °
+
 ## 13.1 Arrows
 
 -   left arrow: ← ←
@@ -254,7 +257,19 @@ definition
 -   [ ] Update the website
 -   [ ] Contact the media
 
-# 14 Session Info
+# 14 Table
+
+| Syntax    | Description                                 |
+|:----------|:--------------------------------------------|
+| Header    | Title                                       |
+| Paragraph | First paragraph. <br><br> Second paragraph. |
+
+| Syntax | Description    |
+|:-------|:---------------|
+| Header | Title          |
+| List   | Here’s a list! |
+
+# 15 Session Info
 
 ``` r
 sessionInfo()
@@ -283,7 +298,7 @@ sessionInfo()
     ##  [9] rmarkdown_2.14  highr_0.9       knitr_1.39      stringr_1.4.0  
     ## [13] xfun_0.30       digest_0.6.29   rlang_1.0.2     evaluate_0.15
 
-## 14.1 Rstudio Version
+## 15.1 Rstudio Version
 
 ``` r
 rstudioapi::versionInfo()
