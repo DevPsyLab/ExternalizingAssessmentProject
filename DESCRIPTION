@@ -1,0 +1,13 @@
+Package: placeholder
+Title: School Readiness Study
+Version: 0.0.1
+Imports:
+  knitr,
+  rmarkdown,
+  dplyr,
+  ggplot2,
+  tidyverse,
+  readr,
+  psych,
+  remotes,
+  tinytex
