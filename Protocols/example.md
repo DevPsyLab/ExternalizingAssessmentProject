@@ -16,18 +16,26 @@ Isaac Petersen
     -   <a href="#42-ordered-lists" id="toc-42-ordered-lists">4.2 Ordered
         Lists</a>
 -   <a href="#5-blockquotes" id="toc-5-blockquotes">5 Blockquotes</a>
--   <a href="#6-emphasis" id="toc-6-emphasis">6 Emphasis</a>
--   <a href="#7-codesyntax-highlighting"
-    id="toc-7-codesyntax-highlighting">7 Code/Syntax Highlighting</a>
--   <a href="#8-math-formulas" id="toc-8-math-formulas">8 Math Formulas</a>
--   <a href="#9-links" id="toc-9-links">9 Links</a>
--   <a href="#10-footnotes" id="toc-10-footnotes">10 Footnotes</a>
--   <a href="#11-symbols" id="toc-11-symbols">11 Symbols</a>
-    -   <a href="#111-arrows" id="toc-111-arrows">11.1 Arrows</a>
-    -   <a href="#112-dashes-and-hyphens" id="toc-112-dashes-and-hyphens">11.2
+-   <a href="#6-comments" id="toc-6-comments">6 Comments</a>
+-   <a href="#7-emphasis" id="toc-7-emphasis">7 Emphasis</a>
+-   <a href="#8-formatting" id="toc-8-formatting">8 Formatting</a>
+-   <a href="#9-codesyntax-highlighting"
+    id="toc-9-codesyntax-highlighting">9 Code/Syntax Highlighting</a>
+-   <a href="#10-math-formulas" id="toc-10-math-formulas">10 Math
+    Formulas</a>
+-   <a href="#11-links" id="toc-11-links">11 Links</a>
+-   <a href="#12-footnotes" id="toc-12-footnotes">12 Footnotes</a>
+-   <a href="#13-symbols" id="toc-13-symbols">13 Symbols</a>
+    -   <a href="#131-arrows" id="toc-131-arrows">13.1 Arrows</a>
+    -   <a href="#132-dashes-and-hyphens" id="toc-132-dashes-and-hyphens">13.2
         Dashes and Hyphens</a>
--   <a href="#12-session-info" id="toc-12-session-info">12 Session Info</a>
-    -   <a href="#121-rstudio-version" id="toc-121-rstudio-version">12.1 Rstudio
+    -   <a href="#133-subscriptsuperscript"
+        id="toc-133-subscriptsuperscript">13.3 Subscript/Superscript</a>
+    -   <a href="#134-definition-list" id="toc-134-definition-list">13.4
+        Definition List</a>
+    -   <a href="#135-task-list" id="toc-135-task-list">13.5 Task list</a>
+-   <a href="#14-session-info" id="toc-14-session-info">14 Session Info</a>
+    -   <a href="#141-rstudio-version" id="toc-141-rstudio-version">14.1 Rstudio
         Version</a>
 
 The `.md` and `.html` files are generated from the `.Rmd` file. Make
@@ -133,7 +141,13 @@ signs (+) in front of line items.
 >
 > Continued…
 
-# 6 Emphasis
+# 6 Comments
+
+    Here's a paragraph that will be visible.
+
+    [This is a comment that will be hidden.]: # 
+
+# 7 Emphasis
 
 This text is **bolded text**. This text is *italicized text*. This text
 is ***bolded and italicized text***. This text is <mark>highlighted
@@ -141,9 +155,18 @@ text</mark>. This text is
 <mark style="background-color: lightblue">highlighted text in a
 different color</mark>. This text is `unicode text`. This text is
 <code><i>code in italics;</i> this text is <b>code is bold</b></code>.
-This text is ~~strikethrough text~~.
+This text is ~~strikethrough text~~. This text <ins>will be
+underlined</ins>. <font color="red">This text is red!</font>
 
-# 7 Code/Syntax Highlighting
+# 8 Formatting
+
+<center>
+
+This text is centered.
+
+</center>
+
+# 9 Code/Syntax Highlighting
 
 To use syntax highlighting to display code without running the code:
 
@@ -157,7 +180,11 @@ or
 summary(cars)
 ```
 
-# 8 Math Formulas
+or
+
+    summary(cars)
+
+# 10 Math Formulas
 
 Inline:
 
@@ -170,7 +197,7 @@ Separate line:
 
 ![y = \frac{x}{7} \cdot 4 + 3 \times 2 - 1\_{a1}/2^{1c/2} \dots](https://latex.codecogs.com/png.image?%5Cdpi%7B110%7D&space;%5Cbg_white&space;y%20%3D%20%5Cfrac%7Bx%7D%7B7%7D%20%5Ccdot%204%20%2B%203%20%5Ctimes%202%20-%201_%7Ba1%7D%2F2%5E%7B1c%2F2%7D%20%5Cdots "y = \frac{x}{7} \cdot 4 + 3 \times 2 - 1_{a1}/2^{1c/2} \dots")
 
-# 9 Links
+# 11 Links
 
 [I’m an inline-style link](https://www.google.com)
 
@@ -189,7 +216,7 @@ links. <http://www.example.com> or <http://www.example.com>
 
 Some text to show that the reference links can follow later.
 
-# 10 Footnotes
+# 12 Footnotes
 
 Here is a simple footnote[^1].
 
@@ -197,22 +224,37 @@ A footnote can also have multiple lines[^2].
 
 You can also use words, to fit your writing style more closely[^3].
 
-# 11 Symbols
+# 13 Symbols
 
-## 11.1 Arrows
+## 13.1 Arrows
 
 -   left arrow: ← ←
 -   upward arrow: ↑ ↑
 -   right arrow: → →
 -   downward arrow: ↓ ↓
 
-## 11.2 Dashes and Hyphens
+## 13.2 Dashes and Hyphens
 
 -   hyphen: -
 -   en dash: –
 -   em dash: —
 
-# 12 Session Info
+## 13.3 Subscript/Superscript
+
+H<sub>2</sub>O X<sup>2</sup>
+
+## 13.4 Definition List
+
+term  
+definition
+
+## 13.5 Task list
+
+-   [x] Write the press release
+-   [ ] Update the website
+-   [ ] Contact the media
+
+# 14 Session Info
 
 ``` r
 sessionInfo()
@@ -236,14 +278,12 @@ sessionInfo()
     ## [1] stats     graphics  grDevices utils     datasets  methods   base     
     ## 
     ## loaded via a namespace (and not attached):
-    ##  [1] digest_0.6.29   R6_2.5.1        jsonlite_1.8.0  magrittr_2.0.3 
-    ##  [5] evaluate_0.15   highr_0.9       rlang_1.0.2     stringi_1.7.6  
-    ##  [9] cli_3.3.0       rstudioapi_0.13 jquerylib_0.1.4 bslib_0.3.1    
-    ## [13] rmarkdown_2.14  tools_4.2.0     stringr_1.4.0   xfun_0.30      
-    ## [17] yaml_2.3.5      fastmap_1.1.0   compiler_4.2.0  htmltools_0.5.2
-    ## [21] knitr_1.39      sass_0.4.1
+    ##  [1] compiler_4.2.0  magrittr_2.0.3  fastmap_1.1.0   cli_3.3.0      
+    ##  [5] tools_4.2.0     htmltools_0.5.2 yaml_2.3.5      stringi_1.7.6  
+    ##  [9] rmarkdown_2.14  highr_0.9       knitr_1.39      stringr_1.4.0  
+    ## [13] xfun_0.30       digest_0.6.29   rlang_1.0.2     evaluate_0.15
 
-## 12.1 Rstudio Version
+## 14.1 Rstudio Version
 
 ``` r
 rstudioapi::versionInfo()
