@@ -76,7 +76,7 @@ Adapted from [here](https://github.com/lowepowerlab/protocols/blob/main/markdown
 * **Use a new line for every sentence.** 
 This helps with version control—individually changed sentences will be highlighted upon commits (easy to parse) rather than whole paragraphs (nightmare to parse).
     * This formatting is incompatible with a double space after period. 
-    Do a find and replace for `".  "` --> `". "` 
+    Do a find and replace for `".  "` → `". "` 
     Be careful not to blanket remove all double spaces because tabbed bullets have 3 spaces. 
 
 * Add protocol entries as links to the `README.md`

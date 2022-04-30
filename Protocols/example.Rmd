@@ -90,13 +90,13 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
     b. test
         i. new test
         ii. new test
-2. the second item
+1. the second item
     1. test
     2. test
-3. the third item
+1. the third item
     - one unordered item
     - one unordered item
-4. fourth item
+1. fourth item
     1) 1
     1) 2
     1) 3
@@ -114,9 +114,8 @@ This text is *italicized text*.
 This text is ***bolded and italicized text***.
 This text is <mark>highlighted text</mark>.
 This text is <mark style="background-color: lightblue">highlighted text in a different color</mark>.
-This text is ==highlighted text== to see which one works in GitHub/GitLab.
 This text is `unicode text`.
-This text is <code><i>code in italics;</i> <b>this text is bold</b></code>.
+This text is <code><i>code in italics;</i> this text is <b>code is bold</b></code>.
 This text is ~~strikethrough text~~.
 
 # Code/Syntax Highlighting
@@ -180,26 +179,21 @@ You can also use words, to fit your writing style more closely[^note].
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
     This footnote also has been made with a different syntax using 4 spaces for new lines.
 
-# Best Practices
+# Symbols
 
-Adapted from [here](https://github.com/lowepowerlab/protocols/blob/main/markdown_best_practices.md):
 
-* **Use a new line for every sentence.** 
-This helps with version control -- individually changed sentences will be highlighted upon commits (easy to parse) rather than whole paragraphs (nightmare to parse).
-    * This formatting is incompatible with a double space after period. 
-    Do a find and replace for `".  "` --> `". "` 
-    Be careful not to blanket remove all double spaces because tabbed bullets have 3 spaces. 
+## Arrows
 
-* Add protocol entries as links to the `README.md`
+* left arrow: ← &#8592;
+* upward arrow: ↑ &#8593;
+* right arrow: → &#8594;
+* downward arrow: ↓ &#8595;
 
-* Add linked content (e.g. images, excel workbooks, etc) to sub-directories
+## Dashes and Hyphens
 
-* When making numbered lists, just use `1. ` for all numbers. 
-Markdown will make them sequential automatically.
-This is helpful if you go back & add additional entries later. 
-
-* Use `"XXX"` to indicate an area that needs editing.
-This will allow the lab to `CTRL+F` for `"XXX"` and find areas that need editing.
+* hyphen: -
+* en dash: –
+* em dash: —
 
 # Session Info
 
