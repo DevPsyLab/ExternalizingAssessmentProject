@@ -201,6 +201,8 @@ You can also use words, to fit your writing style more closely[^note].
 
 # Symbols
 
+- degree: (°) &#176;
+
 ## Arrows
 
 * left arrow: ← &#8592;
@@ -229,6 +231,18 @@ term
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+# Table
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| Paragraph   | First paragraph. <br><br> Second paragraph. |
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title |
+| List        | Here's a list! <ul><li>Item one.</li><li>Item two.</li></ul> |
 
 # Session Info
 
