@@ -35,11 +35,11 @@ This repository includes documentation, procedures, and protocols for the Extern
 
 ## Documentation
 
-* [Best Practices for Creating and Maintaining Lab Protocols in R Markdown](Best-Practices/bestPractices.md)
+- [Best Practices for Creating and Maintaining Lab Protocols in R Markdown](Best-Practices/bestPractices.md)
 
 ## Protocols
 
-* [Example Markdown File](Protocols/example.md)
+- [Example Markdown File](Protocols/example.md)
 
 ## Procedures
 

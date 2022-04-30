@@ -28,7 +28,8 @@ Make sure to make any edits to the `.Rmd` file (not the `.md` and `.html` files)
 
 # R Markdown
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+This is an R Markdown document.
+Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
 For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
@@ -38,7 +39,8 @@ Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by press
 When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
 
 The preview shows you a rendered HTML copy of the contents of the editor.
-Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+Consequently, unlike *Knit*, *Preview* does not run any R code chunks.
+Instead, the output of the chunk when it was last run in the editor is displayed.
 
 You can embed an R code chunk like this:
 
@@ -81,25 +83,25 @@ To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in
         - lower level
             - sub-item 1
             - sub-item 2
-            - sub-sub-item 1
 
 ## Ordered Lists
 
 1. the first item
-    a. test
-    b. test
-        i. new test
-        ii. new test
+    1. test
+    1. test
+        1. new test
+        1. new test
 1. the second item
     1. test
-    2. test
+    1. test
 1. the third item
     - one unordered item
+        - subitem
     - one unordered item
 1. fourth item
-    1) 1
-    1) 2
-    1) 3
+    1. test
+    1. test
+    1. test
     
 # Blockquotes
 
@@ -180,7 +182,6 @@ You can also use words, to fit your writing style more closely[^note].
     This footnote also has been made with a different syntax using 4 spaces for new lines.
 
 # Symbols
-
 
 ## Arrows
 
