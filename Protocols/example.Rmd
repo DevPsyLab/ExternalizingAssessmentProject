@@ -1,0 +1,214 @@
+---
+title: "example"
+author: "Isaac Petersen"
+date: "4/16/2022"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    number_sections: true
+    code_folding: hide
+    df_print: paged
+  github_document:
+    html_preview: FALSE
+    toc: true
+    number_sections: true
+  pdf_document:
+    toc: yes
+    number_sections: yes
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      error = TRUE)
+```
+
+The `.md` and `.html` files are generated from the `.Rmd` file.
+Make sure to make any edits to the `.Rmd` file (not the `.md` and `.html` files).
+
+# R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents.
+For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor.
+Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+
+You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+# Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Headings
+
+## Subheading
+
+### Subsubheading
+
+#### Subsubsubheading
+
+# Lists
+
+To add another element in a list while preserving the continuity of the list, indent the element four spaces or one tab.
+
+## Unordered Lists
+
+To create an unordered list, add dashes (-), asterisks (*), or plus signs (+) in front of line items.
+
+- one item
+- one item
+- one item
+    - one more item
+    - one more item
+    - one more item
+        - lower level
+            - sub-item 1
+            - sub-item 2
+            - sub-sub-item 1
+
+## Ordered Lists
+
+1. the first item
+    a. test
+    b. test
+        i. new test
+        ii. new test
+2. the second item
+    1. test
+    2. test
+3. the third item
+    - one unordered item
+    - one unordered item
+4. fourth item
+    1) 1
+    1) 2
+    1) 3
+    
+# Blockquotes
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+> 
+> Continued...
+
+# Emphasis
+
+This text is **bolded text**.
+This text is *italicized text*.
+This text is ***bolded and italicized text***.
+This text is <mark>highlighted text</mark>.
+This text is <mark style="background-color: lightblue">highlighted text in a different color</mark>.
+This text is ==highlighted text== to see which one works in GitHub/GitLab.
+This text is `unicode text`.
+This text is <code><i>code in italics;</i> <b>this text is bold</b></code>.
+This text is ~~strikethrough text~~.
+
+# Code/Syntax Highlighting
+
+To use syntax highlighting to display code without running the code:
+
+```r
+summary(cars)
+```
+
+or
+
+```{r, eval = FALSE}
+summary(cars)
+```
+
+# Math Formulas
+
+Inline:
+
+This is the formula: $x = y + 5$. Solve for $x$.
+
+Separate line:
+
+$$
+y = \frac{x}{7} \cdot 4 + 3 \times 2 - 1_{a1}/2^{1c/2} \dots
+$$
+
+# Links
+
+[I'm an inline-style link](https://www.google.com)
+
+[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
+
+[I'm a reference-style link][Arbitrary case-insensitive reference text]
+
+[I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+[You can use numbers for reference-style link definitions][1]
+
+URLs and URLs in angle brackets will automatically get turned into links. 
+http://www.example.com or <http://www.example.com>
+
+Some text to show that the reference links can follow later.
+
+[arbitrary case-insensitive reference text]: https://www.mozilla.org
+[1]: http://slashdot.org
+
+# Footnotes
+
+Here is a simple footnote[^1].
+
+A footnote can also have multiple lines[^2].  
+
+You can also use words, to fit your writing style more closely[^note].
+
+[^1]: My reference.
+[^2]: Every new line should be prefixed with 2 spaces.  
+  This allows you to have a footnote with multiple lines.
+[^note]:
+    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
+    This footnote also has been made with a different syntax using 4 spaces for new lines.
+
+# Best Practices
+
+Adapted from [here](https://github.com/lowepowerlab/protocols/blob/main/markdown_best_practices.md):
+
+* **Use a new line for every sentence.** 
+This helps with version control -- individually changed sentences will be highlighted upon commits (easy to parse) rather than whole paragraphs (nightmare to parse).
+    * This formatting is incompatible with a double space after period. 
+    Do a find and replace for `".  "` --> `". "` 
+    Be careful not to blanket remove all double spaces because tabbed bullets have 3 spaces. 
+
+* Add protocol entries as links to the `README.md`
+
+* Add linked content (e.g. images, excel workbooks, etc) to sub-directories
+
+* When making numbered lists, just use `1. ` for all numbers. 
+Markdown will make them sequential automatically.
+This is helpful if you go back & add additional entries later. 
+
+* Use `"XXX"` to indicate an area that needs editing.
+This will allow the lab to `CTRL+F` for `"XXX"` and find areas that need editing.
+
+# Session Info
+
+```{r}
+sessionInfo()
+```
+
+## Rstudio Version
+
+```{r}
+rstudioapi::versionInfo()
+```
