@@ -84,9 +84,9 @@ Adapted from
 -   Use no spaces in file or folder names. Use a dash (-) instead of a
     space.
 
--   When making numbered lists, just use `1.` for all numbers. Markdown
-    will make them sequential automatically. This is helpful if you go
-    back & add additional entries later.
+-   When making numbered (ordered) lists, just use `1.` for all numbers.
+    Markdown will make them sequential automatically. This is helpful if
+    you go back & add additional entries later.
 
 -   Use `"XXX"` to indicate an area that needs editing. This will allow
     the lab to `CTRL+F` for `"XXX"` and find areas that need editing.

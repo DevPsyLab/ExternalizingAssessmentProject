@@ -106,7 +106,6 @@ signs (+) in front of line items.
         -   lower level
             -   sub-item 1
             -   sub-item 2
-            -   sub-sub-item 1
 
 ## 4.2 Ordered Lists
 
@@ -120,11 +119,12 @@ signs (+) in front of line items.
     2.  test
 3.  the third item
     -   one unordered item
+        -   subitem
     -   one unordered item
 4.  fourth item
-    1)  1
-    2)  2
-    3)  3
+    1.  test
+    2.  test
+    3.  test
 
 # 5 Blockquotes
 
