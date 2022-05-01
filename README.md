@@ -1,10 +1,11 @@
 Externalizing Assessment Project
 ================
 Developmental Psychopathology Lab
-April 30, 2022
+May 01, 2022
 
--   <a href="#1-schoolreadinessstudy" id="toc-1-schoolreadinessstudy">1
-    SchoolReadinessStudy</a>
+-   <a href="#1-externalizingassessmentproject"
+    id="toc-1-externalizingassessmentproject">1
+    ExternalizingAssessmentProject</a>
 -   <a href="#2-links" id="toc-2-links">2 Links</a>
     -   <a href="#21-documentation" id="toc-21-documentation">2.1
         Documentation</a>
@@ -19,7 +20,7 @@ files).
 To update the list of R packages that are installed for running the
 `.Rmd` files, update the `DESCRIPTION` file.
 
-# 1 SchoolReadinessStudy
+# 1 ExternalizingAssessmentProject
 
 This repository includes documentation, procedures, and protocols for
 the Externalizing Assessment Project.
