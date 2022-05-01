@@ -27,7 +27,7 @@ Make sure to make any edits to the `.Rmd` file (not the `.md` and `.html` files)
 
 To update the list of R packages that are installed for running the `.Rmd` files, update the `DESCRIPTION` file.
 
-# SchoolReadinessStudy
+# ExternalizingAssessmentProject
 
 This repository includes documentation, procedures, and protocols for the Externalizing Assessment Project.
 
