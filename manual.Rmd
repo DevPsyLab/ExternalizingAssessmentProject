@@ -7,7 +7,7 @@ knitr::opts_chunk$set(echo = TRUE,
                       error = TRUE)
 ```
 
-# Stages
+# Stages {#stages}
 
 There are several stages of the project:
 
@@ -33,9 +33,9 @@ There are several stages of the project:
 1. develop a computerized scoring system
 1. develop translated versions
 
-# Identify Measures
+# Identify Measures {#identifyMeasures}
 
-## Search Terms
+## Search Terms {#searchTerms}
 
 The following are search terms to use for identifting measures that assess externalizing problems (and related constructs):
 
@@ -53,11 +53,11 @@ The following are search terms to use for identifting measures that assess exter
 - oppositional defiant disorder
 - antisocial personality disorder
 
-## Fill out the `Measures` tab
+## Fill out the `Measures` tab {#measuresTab}
 
 The `Measures` tab of the `Existing Measures and Items` spreadsheet is located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
-# Add instruments to the `Instruments` folder
+# Add instruments to the `Instruments` folder {#addInstruments}
 
 The `Instruments` folder is located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
 
