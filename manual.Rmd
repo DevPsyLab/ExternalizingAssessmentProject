@@ -61,7 +61,7 @@ The following are search terms to use for identifting measures that assess exter
 
 Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
-# Add instruments to the `Instruments` folder {#addInstruments}
+## Add instruments to the `Instruments` folder {#addInstruments}
 
 If the instrument is freely available—i.e., publicly available or provided in a publication—add the instrument to the `Instruments` folder, located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
 
