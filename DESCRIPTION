@@ -1,13 +1,6 @@
 Package: placeholder
-Title: School Readiness Study
-Version: 0.0.1
+Title: ExternalizingAssessmentProject
+Version: 1.0.0
 Imports:
-  knitr,
   rmarkdown,
-  dplyr,
-  ggplot2,
-  tidyverse,
-  readr,
-  psych,
-  remotes,
-  tinytex
+  blogdown

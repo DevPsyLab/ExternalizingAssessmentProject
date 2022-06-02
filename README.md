@@ -1,50 +1,17 @@
-Externalizing Assessment Project
-================
-Developmental Psychopathology Lab
-May 01, 2022
+# Project Wiki
 
--   <a href="#1-externalizingassessmentproject"
-    id="toc-1-externalizingassessmentproject">1
-    ExternalizingAssessmentProject</a>
--   <a href="#2-links" id="toc-2-links">2 Links</a>
-    -   <a href="#21-documentation" id="toc-21-documentation">2.1
-        Documentation</a>
-    -   <a href="#22-protocols" id="toc-22-protocols">2.2 Protocols</a>
-    -   <a href="#23-procedures" id="toc-23-procedures">2.3 Procedures</a>
--   <a href="#3-license" id="toc-3-license">3 License</a>
+This is the code that creates the Wiki for the Externalizing Assessment Project.
+The Project Wiki is located here: **https://devpsylab.github.io/ExternalizingAssessmentProject**
 
-The `.md` and `.html` files are generated from the `.Rmd` file. Make
-sure to make any edits to the `.Rmd` file (not the `.md` and `.html`
-files).
+# License
 
-To update the list of R packages that are installed for running the
-`.Rmd` files, update the `DESCRIPTION` file.
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
-# 1 ExternalizingAssessmentProject
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
 
-This repository includes documentation, procedures, and protocols for
-the Externalizing Assessment Project.
+[![CC BY 4.0][cc-by-image]][cc-by]
 
-# 2 Links
-
-## 2.1 Documentation
-
--   [Best Practices for Creating and Maintaining Lab Protocols in R
-    Markdown](Best-Practices/bestPractices.md)
-
-## 2.2 Protocols
-
--   [Example Markdown File](Protocols/example.md)
-
-## 2.3 Procedures
-
-# 3 License
-
-[![CC BY
-4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](http://creativecommons.org/licenses/by/4.0/)
-
-This work is licensed under a [Creative Commons Attribution 4.0
-International License](http://creativecommons.org/licenses/by/4.0/).
-
-[![CC BY
-4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
+[cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
