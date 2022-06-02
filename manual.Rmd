@@ -61,7 +61,7 @@ The following are search terms to use for identifting measures that assess exter
 
 Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
-### Data Dictionary
+### Data Dictionary {#dataDictionary}
 
 - `measureName`: the full official measure name
 - `abbreviation`: the (capitalized) abbreviation of the measure name
