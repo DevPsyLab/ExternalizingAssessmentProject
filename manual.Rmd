@@ -61,6 +61,42 @@ The following are search terms to use for identifting measures that assess exter
 
 Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
+### Data Dictionary
+
+- `measureName`: the full official measure name
+- `abbreviation`: the (capitalized) abbreviation of the measure name
+- `measureClass`: if multiple measures are from the same assessment family/system (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment) provide a short label for the measure class; if the measure is not part of a broader measure class, use the lowercase version of the abbreviation
+    - should be lowercase with no punctuation
+- `instrument`: the lowercase version of the abbreviation
+    - should be lowercase with no punctuation
+- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore
+    - do **not** enter this manually; drag the formula from other cells in the column to calculate
+- `type`: the type of measure; one of:
+    - `questionnaire`
+    - `interview`
+    - `observation`
+    - `other`
+- rater: the rater for whom the measure was designed to be completed; one of:
+    - `parent`
+    - `teacher`
+    - `teacher/caregiver`
+    - `self`
+    - `friend`
+    - `clinician`
+    - `other`
+- `ageLowerYears`: the lower limit of the ratee's age range for which the measure was designed to be completed (in years)
+- `ageUpperYears`: the upper limit of the ratee's age range for which the measure was designed to be completed (in years)
+- `ageLowerMonths`: the lower limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
+- `ageUpperMonths`: the upper limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
+- `responseOptions`: the response options for each item
+    - For example: `0=Not True (as far as you know); 1=Somewhat or Sometimes True; 2=Very True or Often True`
+- `proprietary`: whether the measure is proprietary; one of:
+    - `yes`
+    - `no`
+- `notes`: any notes on the measure
+- `url`: the URL for the measure
+- `keyReferences`: any key references for the measure, including seminal references, references that includes the items, etc.
+
 ## Add instruments to the `Instruments` folder {#addInstruments}
 
 If the instrument is freely available—i.e., publicly available or provided in a publication—add the instrument to the `Instruments` folder, located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
