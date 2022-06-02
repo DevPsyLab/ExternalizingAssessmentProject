@@ -33,7 +33,9 @@ There are several stages of the project:
 1. develop a computerized scoring system
 1. develop translated versions
 
-# Identify Measures {#identifyMeasures}
+# Stage 1: Identify Measures {#identifyMeasures}
+
+This stage involves filling out the `Measures` tab of the `Existing Measures and Items` spreadsheet and adding instruments to the `Instruments` folder.
 
 ## Search Terms {#searchTerms}
 
@@ -55,9 +57,9 @@ The following are search terms to use for identifting measures that assess exter
 
 ## Fill out the `Measures` tab {#measuresTab}
 
-The `Measures` tab of the `Existing Measures and Items` spreadsheet is located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
+Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
 # Add instruments to the `Instruments` folder {#addInstruments}
 
-The `Instruments` folder is located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
+Add instruments to the `Instruments` folder, located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
 
