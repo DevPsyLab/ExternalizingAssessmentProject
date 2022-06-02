@@ -1,5 +1,5 @@
 ---
-title: "Lab Manual"
+title: "Project Manual"
 ---
 
 ```{r setup, include = FALSE}
@@ -12,13 +12,13 @@ knitr::opts_chunk$set(echo = TRUE,
 There are several stages of the project:
 
 1. identify all the measures we can (and obtaining the publicly available ones or the ones that are provided in publications)
-    - fill out the "Measures" tab and add the instrument (as documents/PDFs) to the "Instruments" folder
+    - fill out the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab and add the instrument (as documents/PDFs) to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
 1. obtain all the measures we can that are proprietary (e.g., by purchasing them) or not provided in publications (e.g., by contacting the authors)
-    - i.e., add additional instruments to the "Instruments" folder
+    - i.e., add additional instruments to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
 1. identify the scales and subscales for each measure
-    - i.e., fill out the "Scales and Subscales" tab
+    - i.e., fill out the [`Scales and Subscales`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=618359966) tab
 1. identify the items for each scale and subscale for each measure
-    - i.e., fill out the "Items" tab
+    - i.e., fill out the [`Items`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=1930981316) tab
 1. identify the facet assessed by each item
 1. select and edit the items to ensure each facet is assessed comprehensively at each age
 1. have the focus groups of experts review, refine, and rate the construct relevance of the items at each age
@@ -29,3 +29,32 @@ There are several stages of the project:
 1. develop a computerized adaptive test
 1. develop a computerized scoring system
 1. develop translated versions
+
+# Identify Measures
+
+## Search Terms
+
+Search terms to use include:
+
+- externalizing
+- antisocial
+- disruptive
+- conduct problems
+- callous-unemotional
+- aggression
+- oppositionality
+- inattention
+- hyperactivity
+- ADHD
+- conduct disorder
+- oppositional defiant disorder
+- antisocial personality disorder
+
+## Fill out the `Measures` tab
+
+The `Measures` tab of the `Existing Measures and Items` spreadsheet is located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
+
+# Add instruments to the `Instruments` folder
+
+The `Instruments` folder is located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
+

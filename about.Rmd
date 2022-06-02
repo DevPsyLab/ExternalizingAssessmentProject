@@ -8,11 +8,11 @@ knitr::opts_chunk$set(echo = TRUE,
 ```
 
 The Project Wiki was generated with [`rmarkdown`](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html).
-The codebase that was used to generate the Lab Wiki is located [here](https://github.com/DevPsyLab/ExternalizingAssessmentProject).
+The codebase that was used to generate the Project Wiki is located [here](https://github.com/DevPsyLab/ExternalizingAssessmentProject).
 
 # Contact
 
-If you have questions about the lab and are not sure who to contact, please contact devpsy-lab@uiowa.edu.
+If you have questions about the project and are not sure who to contact, please contact devpsy-lab@uiowa.edu.
 
 # License
 
