@@ -26,8 +26,8 @@ There are several stages of the project:
 1. have the focus groups of experts review, refine, and rate the construct relevance of the items at each age
 1. select the final item pool for each age
 1. recruit participants to test the item pools
-1. select items for the final measure based on testing
-1. recruit a nationally representative sample to complete the measure
+1. select items for the final measure at a given age for a given rater type based on testing
+1. recruit a nationally representative sample of participants whose informants who will rate them on the measure
 1. generate age- and sex-based norms
 1. develop a computerized adaptive test
 1. develop a computerized scoring system
