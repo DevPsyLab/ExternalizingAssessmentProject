@@ -61,11 +61,11 @@ The following are search terms to use for identifting measures that assess exter
 
 Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 
-### Data Dictionary {#dataDictionary}
+#### Data Dictionary {#dataDictionary}
 
 - `measureName`: the full official measure name
 - `abbreviation`: the (capitalized) abbreviation of the measure name
-- `measureClass`: if multiple measures are from the same assessment family/system (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment) provide a short label for the measure class; if the measure is not part of a broader measure class, use the lowercase version of the abbreviation
+- `measureClass`: the broader assessment family/system; if multiple measures are from the same assessment family/system (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment) provide a short label for the measure class; if the measure is not part of a broader measure class, use the lowercase version of the abbreviation
     - should be lowercase with no punctuation
 - `instrument`: the lowercase version of the abbreviation
     - should be lowercase with no punctuation
@@ -96,6 +96,18 @@ Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, lo
 - `notes`: any notes on the measure
 - `url`: the URL for the measure
 - `keyReferences`: any key references for the measure, including seminal references, references that includes the items, etc.
+
+### How Rows are Sorted
+
+The rows inthe `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
+When adding rows for new measures, place the new row in the appropriate location accordingly.
+
+### How to Indicate Measures from the Same "Measure Class"
+
+As described in the [Data Dictionary](#dataDictionary), the "measure class" is the broader assessment family or system.
+Multiple instruments can belong to the same measure class (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment).
+If there are multiple measures within the same measure class, use borders to indicate that measures have the same measure class.
+For instance, the first assessment in a given measure class should have a top border, and the last assessment in a given measure class should have a bottom border.
 
 ## Add instruments to the `Instruments` folder {#addInstruments}
 
