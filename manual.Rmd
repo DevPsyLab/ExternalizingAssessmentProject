@@ -95,7 +95,7 @@ Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, lo
     - `no`
 - `notes`: any notes on the measure
 - `url`: the URL for the measure
-- `keyReferences`: any key references for the measure, including seminal references, references that includes the items, etc.
+- `keyReferences`: any key references for the measure, including seminal references, references that include the items, etc.
 
 ## Add instruments to the `Instruments` folder {#addInstruments}
 
