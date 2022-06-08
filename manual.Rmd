@@ -65,12 +65,12 @@ If there are multiple editions of the same measure, select (and specify) the mos
 #### Data Dictionary {#dataDictionary}
 
 - `measureName`: the full official measure name
-- `abbreviation`: the (capitalized) abbreviation of the measure name
+- `abbreviation`: the (capitalized) abbreviation of the measure name; duplicates are allowed
 - `measureClass`: the broader assessment family/system; if multiple measures are from the same assessment family/system (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment) provide a short label for the measure class; if the measure is not part of a broader measure class, use the lowercase version of the abbreviation
     - should be lowercase with no punctuation
 - `instrument`: the lowercase version of the abbreviation
-    - should be lowercase with no punctuation
-- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore
+    - should be lowercase with no punctuation; however, this may have to include a disambuating element (such as the author name or year of publication) so that there are no duplicates in the `measure` column
+- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates
     - do **not** enter this manually; drag the formula from other cells in the column to calculate
 - `type`: the type of measure; one of:
     - `questionnaire`
