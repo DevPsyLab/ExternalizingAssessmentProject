@@ -68,8 +68,10 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - `abbreviation`: the (capitalized) abbreviation of the measure name; duplicates are allowed
 - `measureClass`: the broader assessment family/system; if multiple measures are from the same assessment family/system (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment) provide a short label for the measure class; if the measure is not part of a broader measure class, use the lowercase version of the abbreviation
     - should be lowercase with no punctuation
+    - only measures that are part of the same measure class should have the same label for `measureClass`; if measures from a different measure class have the same label for `measureClass`, this may have to include a disambuating element (such as the author name or year of publication) so measures from different measure classes are not given the same label
 - `instrument`: the lowercase version of the abbreviation
-    - should be lowercase with no punctuation; however, this may have to include a disambuating element (such as the author name or year of publication) so that there are no duplicates in the `measure` column
+    - should be lowercase with no punctuation
+    - this may have to include a disambuating element (such as the author name or year of publication) so that there are no duplicates in the `measure` column
 - `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates (duplicates are highlighted in red)
     - do **not** enter this manually; drag the formula from other cells in the column to calculate
 - `type`: the type of measure; one of:
