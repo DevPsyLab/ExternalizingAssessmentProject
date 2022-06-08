@@ -70,7 +70,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
     - should be lowercase with no punctuation
 - `instrument`: the lowercase version of the abbreviation
     - should be lowercase with no punctuation; however, this may have to include a disambuating element (such as the author name or year of publication) so that there are no duplicates in the `measure` column
-- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates
+- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates (duplicates are highlighted in red)
     - do **not** enter this manually; drag the formula from other cells in the column to calculate
 - `type`: the type of measure; one of:
     - `questionnaire`
