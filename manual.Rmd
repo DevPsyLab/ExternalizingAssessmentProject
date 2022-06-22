@@ -96,7 +96,9 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - `ageLowerYears`: the lower limit of the ratee's age range for which the measure was designed to be completed (in years)
 - `ageUpperYears`: the upper limit of the ratee's age range for which the measure was designed to be completed (in years)
 - `ageLowerMonths`: the lower limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
+    - this is calculated automatically using a formula based on `ageLowerYears`, so you should not enter this unless the measure specifies ratee's age range in months rather than years
 - `ageUpperMonths`: the upper limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
+    - this is calculated automatically using a formula based on `ageUpperYears`, so you should not enter this unless the measure specifies ratee's age range in months rather than years
 - `responseOptions`: the response options for each item
     - Use a semicolon (`;`) to separate response options
     - For example: `0=Not True (as far as you know); 1=Somewhat or Sometimes True; 2=Very True or Often True`
