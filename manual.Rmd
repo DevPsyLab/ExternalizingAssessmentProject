@@ -37,6 +37,7 @@ There are several stages of the project:
 
 - Use Roboto font size 10
 - Use an en dash (`–`; i.e., not a hyphen) to indicate a range:
+    - e.g., 1–18 (not 1-18)
 
 # Stage 1: Identify Measures {#identifyMeasures}
 
