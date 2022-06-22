@@ -33,6 +33,11 @@ There are several stages of the project:
 1. develop a computerized scoring system
 1. develop translated versions
 
+# Instructions for all Spreadsheets
+
+- Use Roboto font size 10
+- Use an en dash (`–`; i.e., not a hyphen) to indicate a range:
+
 # Stage 1: Identify Measures {#identifyMeasures}
 
 This stage involves 1) identifying as many measures as possible that assess externalizing problems and related constructs and 2) obtaining the freely available ones.
@@ -92,6 +97,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - `ageLowerMonths`: the lower limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
 - `ageUpperMonths`: the upper limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
 - `responseOptions`: the response options for each item
+    - Use a semicolon (`;`) to separate response options
     - For example: `0=Not True (as far as you know); 1=Somewhat or Sometimes True; 2=Very True or Often True`
 - `proprietary`: whether the measure is proprietary; one of:
     - `yes`
