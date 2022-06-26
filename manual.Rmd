@@ -38,6 +38,7 @@ There are several stages of the project:
 - Use Roboto font size 10
 - Use an en dash (`–`; i.e., not a hyphen) to indicate a range:
     - e.g., 1–18 (not 1-18)
+	- an en dash is technically correct; in addition, spreadsheets often read 3-7 as March 7th, but they correctly read 3–7
 
 # Stage 1: Identify Measures {#identifyMeasures}
 
