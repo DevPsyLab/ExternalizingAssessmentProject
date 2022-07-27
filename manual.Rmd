@@ -14,6 +14,7 @@ There are several stages of the project:
 1. identify as many measures as possible that assess externalizing problems and related constructs (and obtain the freely available ones)
     - fill out the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab of the `Existing Measures and Items` spreadsheet
     - add the instrument (as documents/PDFs) to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
+    - add the source reference(s) (as documents/PDFs) to the [`Source References`](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV) folder
 1. obtain as many measures as possible that are not freely available
     - i.e., add additional instruments to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
 1. identify the scales and subscales for each measure
@@ -89,11 +90,13 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - rater: the rater for whom the measure was designed to be completed; one of:
     - `parent`
     - `teacher`
-    - `teacher/caregiver`
+    - `caregiver`: caregivers who are not parents or teachers (e.g., other family members or care providers)
     - `self`
     - `friend`
     - `clinician`
-    - `other`
+    - `nurse`
+    - `sibling`
+    - `other`: any informant who knows the child well
 - `ageLowerYears`: the lower limit of the ratee's age range for which the measure was designed to be completed (in years)
 - `ageUpperYears`: the upper limit of the ratee's age range for which the measure was designed to be completed (in years)
 - `ageLowerMonths`: the lower limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
@@ -112,7 +115,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
 
 ### How Rows are Sorted
 
-The rows inthe `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
+The rows in the `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
 When adding rows for new measures, place the new row in the appropriate location accordingly.
 
 ### How to Indicate Measures from the Same "Measure Class"
@@ -125,6 +128,10 @@ For instance, the first assessment in a given measure class should have a top bo
 ## Add instruments to the `Instruments` folder {#addInstruments}
 
 If the instrument is freely available—i.e., publicly available or provided in a publication—add the instrument to the `Instruments` folder, located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
+
+## Add source reference(s) to the `Source References` folder {#addSourceRefs}
+
+If the instrument is freely available—i.e., publicly available or provided in a publication—add the source reference(s) to the `Source References` folder, located [here](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV).
 
 # Stage 2: Obtain Measures {#obtainMeasures}
 
