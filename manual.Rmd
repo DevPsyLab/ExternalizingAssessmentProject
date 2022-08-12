@@ -93,6 +93,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
     - `caregiver`: caregivers who are not parents or teachers (e.g., other family members or care providers)
     - `self`
     - `friend`
+    - `nurse`
     - `clinician`
     - `nurse`
     - `sibling`
