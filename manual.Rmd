@@ -129,10 +129,19 @@ For instance, the first assessment in a given measure class should have a top bo
 ## Add instruments to the `Instruments` folder {#addInstruments}
 
 If the instrument is freely available—i.e., publicly available or provided in a publication—add the instrument to the `Instruments` folder, located [here](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f).
+Save the PDF using the capitalized abbreviation of the measure name.
 
 ## Add source reference(s) to the `Source References` folder {#addSourceRefs}
 
 If the instrument is freely available—i.e., publicly available or provided in a publication—add the source reference(s) to the `Source References` folder, located [here](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV).
+Save the source reference(s) using the following format, depending on the number of authors:
+
+- one author: "Author, Year, Abbreviation.pdf"
+    - e.g.: "Achenbach, 2000, CBCL.pdf"
+- two authors: "Author1 & Author2, Year, Abbreviation.pdf"
+    - e.g.: "Achenbach & Rescorla, 2000, CBCL.pdf"
+- three or more authors: "Author1 et al, Year, Abbreviation.pdf"
+    - e.g.: "Achenbach et al, 2000, CBCL.pdf"
 
 # Stage 2: Obtain Measures {#obtainMeasures}
 
