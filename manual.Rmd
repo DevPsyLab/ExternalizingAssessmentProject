@@ -15,6 +15,7 @@ There are several stages of the project:
     - fill out the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab of the `Existing Measures and Items` spreadsheet
     - add the instrument (as documents/PDFs) to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
     - add the source reference(s) (as documents/PDFs) to the [`Source References`](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV) folder
+    - add the scoring manual(s) (as documents/PDFs) to the [`Scoring`](https://drive.google.com/drive/u/0/folders/1ptIl7G2ksPdj3YZVxYiPGjgjayw_borY) folder
 1. obtain as many measures as possible that are not freely available
     - i.e., add additional instruments to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
 1. identify the scales and subscales for each measure
@@ -143,9 +144,19 @@ Save the source reference(s) using the following format, depending on the number
 - three or more authors: "Author1 et al, Year, Abbreviation.pdf"
     - e.g.: "Achenbach et al, 2000, CBCL.pdf"
 
+## Add scoring manual(s) to the `Scoring` folder {#scoring}
+
+If the instrument is freely available—i.e., publicly available or provided in a publication—add the scoring manual(s) (as documents/PDFs) to the `Scoring` folder, located [here](https://drive.google.com/drive/u/0/folders/1ptIl7G2ksPdj3YZVxYiPGjgjayw_borY).
+Save the PDF using the capitalized abbreviation of the measure name.
+
 # Stage 2: Obtain Measures {#obtainMeasures}
 
 This stage involves obtaining as many measures as possible that are not freely available—e.g., measures that are proprietary (e.g., by purchasing them) or are not provided in publications (e.g., by contacting the authors).
+After obtaining measures, complete steps of Stage 1 with the newly obtained measures, including:
+
+- add the instrument (as documents/PDFs) to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder (described [here](#addInstruments))
+- add the source reference(s) (as documents/PDFs) to the [`Source References`](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV) folder (described [here](#addSourceRefs))
+- add the scoring manual(s) (as documents/PDFs) to the [`Scoring`](https://drive.google.com/drive/u/0/folders/1ptIl7G2ksPdj3YZVxYiPGjgjayw_borY) folder (described [here](#scoring))
 
 # Stage 3: Identify the Scales and Subscales for Each Measure {#scalesSubscales}
 
