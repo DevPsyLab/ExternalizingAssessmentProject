@@ -100,7 +100,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
     - `sibling`
     - `other`: any informant who knows the child well
 - `ageLowerYears`: the lower limit of the ratee's age range for which the measure was designed to be completed (in years)
-- `ageUpperYears`: the upper limit of the ratee's age range for which the measure was designed to be completed (in years)
+- `ageUpperYears`: the upper limit of the ratee's age range for which the measure was designed to be completed (in years); if no upper limit is specified in the documentation for the instrument, use the oldest age in the original sample. If the oldest age is not available and the scale was designed to be used without an upper age limit, specify `99`.
 - `ageLowerMonths`: the lower limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
     - this is calculated automatically using a formula based on `ageLowerYears`, so you should not enter this unless the measure specifies ratee's age range in months rather than years
 - `ageUpperMonths`: the upper limit of the ratee's age range for which the measure was designed to be completed (in months)—especially relevant for infants/toddlers
