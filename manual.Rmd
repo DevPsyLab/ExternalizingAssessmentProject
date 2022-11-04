@@ -68,7 +68,7 @@ The following are search terms to use for identifting measures that assess exter
 
 ## Fill out the `Measures` tab {#measuresTab}
 
-Fill out The `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
+Fill out the `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 If there are multiple editions of the same measure, select (and specify) the most recent edition (e.g., `Behavior Rating Inventory of Executive Function–2` for the 2nd Edition of the BRIEF).
 
 #### Data Dictionary {#dataDictionary}
