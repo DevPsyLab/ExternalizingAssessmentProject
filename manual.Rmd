@@ -160,7 +160,11 @@ After obtaining measures, complete steps of Stage 1 with the newly obtained meas
 
 # Stage 3: Identify the Scales and Subscales for Each Measure {#scalesSubscales}
 
-If the measure has a name for a given scale or subscale, use these names, but follow the standard measure table naming convention (e.g., Rule Breaking Behavior = ruleBreakingBehavior). If measure does not have a clear name, use naming convention to label with 1-3 words best describing the scale or subscale.
+This stage involves identifying the scales and subscales for each measure.
+For a measure, identify the names of the scales and subscales as specified by the authors.
+Fill out the [`Scales and Subscales`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=618359966) tab of the `Existing Measures and Items` spreadsheet.
+Follow the Camel case naming convention when adding the names of the scales and subscales to the Measures table (e.g., "Rule Breaking Behavior" = `ruleBreakingBehavior`).
+If a scale or subscale does not have a clear name, use the naming convention to label with 1–3 words that best describing the scale or subscale.
 
 # Stage 4: Identify the Items {#identifyItems}
 
