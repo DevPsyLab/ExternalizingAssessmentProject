@@ -169,7 +169,7 @@ If a scale or subscale does not have a clear name, use the naming convention to 
 ## Data Dictionary {#dataDictionary-subscales}
 
 - `measure`: the unique identifier of the measure; combines the `measureClass` and the `instrument` into one field; should be the same value as the `measure` in the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab of the `Existing Measures and Items` spreadsheet; see the [Data Dictionary for the Measures tab](#dataDictionary-measures) for a detailed description of the column
-- `higherOrderScale`: the higher-order scale(s) (if any) for the measure; a higher-order scale is a scale that subsumes multiple subscales
+- `higherOrderScale`: the higher-order scale(s) (if any) for the measure; a higher-order scale is a scale that subsumes multiple subscales; should be "n/a" if the measure does not have a higher-order scale
 - `subscale`: the subscale(s) of the measure;
 
 # Stage 4: Identify the Items {#identifyItems}
