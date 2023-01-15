@@ -71,7 +71,7 @@ The following are search terms to use for identifting measures that assess exter
 Fill out the `Measures` tab of the `Existing Measures and Items` spreadsheet, located [here](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 If there are multiple editions of the same measure, select (and specify) the most recent edition (e.g., `Behavior Rating Inventory of Executive Function–2` for the 2nd Edition of the BRIEF).
 
-#### Data Dictionary {#dataDictionary}
+### Data Dictionary {#dataDictionary-measures}
 
 - `measureName`: the full official measure name
 - `abbreviation`: the (capitalized) abbreviation of the measure name; duplicates are allowed
@@ -81,7 +81,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - `instrument`: the lowercase version of the abbreviation
     - should be lowercase with no punctuation
     - this may have to include a disambuating element (such as the author name or year of publication) so that there are no duplicates in the `measure` column
-- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates (duplicates are highlighted in red)
+- `measure`: a calculated field that combines the `measureClass` and the `instrument` into one field, separated by an underscore; there should be no duplicates (duplicates are highlighted in red); this field is the unique identifier of the measure
     - do **not** enter this manually; drag the formula from other cells in the column to calculate
 - `type`: the type of measure; one of:
     - `questionnaire`
@@ -120,9 +120,9 @@ If there are multiple editions of the same measure, select (and specify) the mos
 The rows in the `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
 When adding rows for new measures, place the new row in the appropriate location accordingly.
 
-### How to Indicate Measures from the Same "Measure Class"
+### How to Indicate Measures from the Same "Measure Class" {measureClass}
 
-As described in the [Data Dictionary](#dataDictionary), the "measure class" is the broader assessment family or system.
+As described in the [Data Dictionary](#dataDictionary-measures), the "measure class" is the broader assessment family or system.
 Multiple instruments can belong to the same measure class (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment).
 If there are multiple measures within the same measure class, use borders to indicate that measures have the same measure class.
 For instance, the first assessment in a given measure class should have a top border, and the last assessment in a given measure class should have a bottom border.
@@ -166,6 +166,46 @@ Fill out the [`Scales and Subscales`](https://docs.google.com/spreadsheets/d/1lu
 Follow the Camel case naming convention when adding the names of the scales and subscales to the Measures table (e.g., "Rule Breaking Behavior" = `ruleBreakingBehavior`).
 If a scale or subscale does not have a clear name, use the naming convention to label with 1–3 words that best describe the scale or subscale.
 
+## Data Dictionary {#dataDictionary-subscales}
+
+- `measure`: the unique identifier of the measure; combines the `measureClass` and the `instrument` into one field; should be the same value as the `measure` in the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab of the `Existing Measures and Items` spreadsheet; see the [Data Dictionary for the Measures tab](#dataDictionary-measures) for a detailed description of the column
+- `higherOrderScale`: the higher-order scale(s) (if any) for the measure; a higher-order scale is a scale that subsumes multiple subscales
+- `subscale`: the subscale(s) of the measure;
+
 # Stage 4: Identify the Items {#identifyItems}
+
+This stage involves identifying the items for each scale and subscale for each measure.
+To do this, fill out the [`Items`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=1930981316) tab of the `Existing Measures and Items` spreadsheet by transcribing the items from the PDF of each measure that is located in the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder.
+
+## Data Dictionary {#dataDictionary-items}
+
+- `itemWording`: the wording of the item
+- `facet`: the facet that is assessed by the item
+- `reverseScored`: whether the item is reverse scored; one of:
+    - `yes`
+    - `no`
+- `measure1`: the unique identifier of the measure that the item is from; combines the `measureClass` and the `instrument` into one field; should be the same value as the `measure` in the [`Measures`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0) tab of the `Existing Measures and Items` spreadsheet; see the [Data Dictionary for the Measures tab](#dataDictionary-measures) for a detailed description of the column
+- `measure1itemNumber`: the number of the item on `measure1`
+- `measure1HigherOrderScale`: the higher-order scale of the item on `measure1`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
+- `measure1Subscale`: the subscale of the item on `measure1`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
+
+The following columns are filled out only if the same item appears on multiple measures within the same [measure class](measureClass):
+
+- `measure2`
+- `measure2itemNumber`
+- `measure2HigherOrderScale`
+- `measure2Subscale`
+- `measure3`
+- `measure3itemNumber`
+- `measure3HigherOrderScale`
+- `measure3Subscale`
+- `measure4`
+- `measure4itemNumber`
+- `measure4HigherOrderScale`
+- `measure4Subscale`
+- `measure5`
+- `measure5itemNumber`
+- `measure5HigherOrderScale`
+- `measure5Subscale`
 
 # Stage 5: Identify the Facet Assessed by Each item {#identifyItemFacets}
