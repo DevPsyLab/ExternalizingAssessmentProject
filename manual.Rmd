@@ -189,7 +189,7 @@ To do this, fill out the [`Items`](https://docs.google.com/spreadsheets/d/1luduZ
 - `measure1HigherOrderScale`: the higher-order scale of the item on `measure1`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
 - `measure1Subscale`: the subscale of the item on `measure1`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
 
-The following columns are filled out only if the same item appears on multiple measures within the same [measure class](measureClass):
+The following columns are filled out only if the same item appears on multiple measures within the same [measure class](#measureClass):
 
 - `measure2`
 - `measure2itemNumber`
