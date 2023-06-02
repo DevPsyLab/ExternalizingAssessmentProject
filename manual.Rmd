@@ -116,6 +116,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
 - `keyReferences`: any key references for the measure, including seminal references, references that include the items, etc.; you can include multiple key references if they would be useful (separate them with a semicolon)
 - `instrumentPDF`: whether or not we have the PDF of the instrument (indicate yes with an `x`); if we are unable to obtain it, specify why not
 - `sourceRefPDF`: whether or not we have the PDF of the source reference (indicate yes with an `x`); if we are unable to obtain it, specify why not
+
 ### How Rows are Sorted
 
 The rows in the `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
