@@ -112,8 +112,10 @@ If there are multiple editions of the same measure, select (and specify) the mos
     - `yes`
     - `no`
 - `notes`: any notes on the measure
-- `url`: the URL for the measure
-- `keyReferences`: any key references for the measure, including seminal references, references that include the items, etc.
+- `url`: the URL for the measure (i.e., where to access or purchase it); you can include multiple URLs if they would be useful (separate them with a semicolon)
+- `keyReferences`: any key references for the measure, including seminal references, references that include the items, etc.; you can include multiple key references if they would be useful (separate them with a semicolon)
+- `instrumentPDF`: whether or not we have the PDF of the instrument (indicate yes with an `x`); if not, say why not
+- `sourceRefPDF`: whether or not we have the PDF of the instrument (indicate yes with an `x`); if not, say why not
 
 ### How Rows are Sorted
 
