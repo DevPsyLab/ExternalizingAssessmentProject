@@ -124,7 +124,7 @@ If there are multiple editions of the same measure, select (and specify) the mos
 The rows in the `Measures` tab of the `Existing Measures and Items` spreadsheet are sorted by the `measure` column, which sorts first by `measureClass` and then by `instrument`.
 When adding rows for new measures, place the new row in the appropriate location accordingly.
 
-### How to Indicate Measures from the Same "Measure Class" {measureClass}
+### How to Indicate Measures from the Same "Measure Class" {#measureClass}
 
 As described in the [Data Dictionary](#dataDictionary-measures), the "measure class" is the broader assessment family or system.
 Multiple instruments can belong to the same measure class (e.g., both the Child Behavior Checklist and Teacher's Report Form are part of the Achenbach System of Empirically Based Assessment).
