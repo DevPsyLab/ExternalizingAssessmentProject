@@ -16,24 +16,24 @@ There are several stages of the project:
     - add the instrument (as documents/PDFs) to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
     - add the source reference(s) (as documents/PDFs) to the [`Source References`](https://drive.google.com/drive/u/0/folders/1yWhRvr4pHbRIpYhiVvvghk4g3wGq0-GV) folder
     - add the scoring manual(s) (as documents/PDFs) to the [`Scoring`](https://drive.google.com/drive/u/0/folders/1ptIl7G2ksPdj3YZVxYiPGjgjayw_borY) folder
-2. obtain as many measures as possible that are not freely available
+1. obtain as many measures as possible that are not freely available
     - i.e., add additional instruments to the [`Instruments`](https://drive.google.com/drive/u/0/folders/1UL9_9tbKPQeKNLftlBTdWI9kVcqEn51f) folder
-3. identify the scales and subscales for each measure
+1. identify the scales and subscales for each measure
     - i.e., fill out the [`Scales and Subscales`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=618359966) tab of the `Existing Measures and Items` spreadsheet
-4. identify the items for each scale and subscale for each measure
+1. identify the items for each scale and subscale for each measure
     - i.e., fill out the [`Items`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=1930981316) tab of the `Existing Measures and Items` spreadsheet
-5. identify the facet assessed by each item
+1. identify the facet assessed by each item
     - i.e., fill in the `facet` column of the [`Items`](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=1930981316) tab of the `Existing Measures and Items` spreadsheet
-6. select and edit the items to ensure each facet is assessed comprehensively at each age
-7. have the focus groups of experts review, refine, and rate the construct relevance of the items at each age
-8. select the final item pool for each age
-9. recruit participants to test the item pools
-10. select items for the final measure at a given age for a given rater type based on testing
-11. recruit a nationally representative sample of participants whose informants who will rate them on the measure
-12. generate age- and sex-based norms
-13. develop a computerized adaptive test
-14. develop a computerized scoring system
-15. develop translated versions
+1. select and edit the items to ensure each facet is assessed comprehensively at each age
+1. have the focus groups of experts review, refine, and rate the construct relevance of the items at each age
+1. select the final item pool for each age
+1. recruit participants to test the item pools
+1. select items for the final measure at a given age for a given rater type based on testing
+1. recruit a nationally representative sample of participants whose informants who will rate them on the measure
+1. generate age- and sex-based norms
+1. develop a computerized adaptive test
+1. develop a computerized scoring system
+1. develop translated versions
 
 # Instructions for all Spreadsheets
 
