@@ -219,5 +219,6 @@ The following columns are filled out only if the same item appears on multiple m
 
 To prevent multiple people from coding the same scale, write your name in the itemFacet column next to each measure you are working on in ['Measures'](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
 Using the list of ['Facets'](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=639387683), identify the facet of each item's for the scale you have selected to work on here: ['Items'](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=1930981316)
-You can leave comments in ['Items'] for yourself to address. If questions come up for the group to discuss or if you have ideas for revising the facets, you can use Slack.
+You can leave comments in ['Items'] for yourself to address.
+If questions come up for the group to discuss or if you have ideas for revising the facets, you can use Slack.
 Mark an x by any scales you've completed (i.e., which have all the item facets identified) in the itemFacet column in ['Measures'](https://docs.google.com/spreadsheets/d/1luduZayyVmONdxBCcvrMGVv1vshhHzQ7eEOLg1aaMxE/edit#gid=0).
