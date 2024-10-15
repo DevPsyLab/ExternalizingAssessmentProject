@@ -5,11 +5,13 @@ install.packages("googlesheets4")
 install.packages("dplyr")
 install.packages("tidyr")
 install.packages("purrr")
+install.packages("tibble")
 
 library(googlesheets4)
 library(dplyr)
 library(tidyr)
 library(purrr)
+library(tibble)
 
 # Read the first spreadsheet (Question Items)
 sheet1_url <- "https://docs.google.com/spreadsheets/d/1sRYBIRvqLvuXzQyngoaQC_nv-eT85VRig4zxwWPLvFs/edit?gid=0#gid=0"

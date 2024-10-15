@@ -193,6 +193,7 @@ To do this, fill out the [`Items`](https://docs.google.com/spreadsheets/d/1luduZ
 - `higherOrderScale`: the higher-order scale of the item on `measure`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
 - `itemSortOrder`: the sort order (ascending) for an item in a given measure; the sort order should reflect the order that we want the items presented—either based on subscale groupings or based on the order in which they are present in the instrument
 - `subscale`: the subscale of the item on `measure`; see the [Data Dictionary for the Scales and Subscales tab](#dataDictionary-subscales) for a detailed description of the column
+- `sinceSeptember2024`: Whether the item was added after September 2024; enter an x to indicate yes.
 
 <!--
 The following columns are filled out only if the same item appears on multiple measures within the same [measure class](#measureClass):
